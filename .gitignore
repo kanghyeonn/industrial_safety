@@ -85,3 +85,17 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+
+# 데이터 파일
+data/
+
+# 모델 결과
+runs/
+gray_runs/
+
+# 모델
+*.pt
+
+# text 파일
+test.ipynb
