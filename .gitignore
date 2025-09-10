@@ -1,0 +1,87 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 가상환경
+venv/
+env/
+.venv/
+.env/
+*.env
+
+# 로그 / 캐시
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.db-journal
+
+# 배포 / 빌드 산출물
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints
+
+# Pytest / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.coverage.*
+
+# mypy / pyright
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyright/
+
+# ----------------------------
+# IDEs
+# ----------------------------
+# PyCharm
+.idea/
+*.iml
+
+# VSCode (혹시 병행할 경우)
+.vscode/
+
+# ----------------------------
+# 기타
+# ----------------------------
+# 시스템 파일
+.DS_Store
+Thumbs.db
+
+# 백업 파일
+*.bak
+*.swp
+*.swo
+*~
