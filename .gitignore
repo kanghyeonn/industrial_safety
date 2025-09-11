@@ -97,5 +97,12 @@ gray_runs/
 # 모델
 *.pt
 
-# text 파일
+# test 파일
 test.ipynb
+
+# video 폴더
+test_result_video
+test_video
+
+# 추론 파일
+video_test.ipynb
